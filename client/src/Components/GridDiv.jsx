@@ -14,36 +14,38 @@ function GridDiv() {
     <section >
       <h1>Share your setup with</h1>
       <h1 className=' grid-div-heading'>#FuniroFuniture</h1>
-        <div className='grid-div'>
-            <div className=' grid-one'>
-              <img  src={ProImgEight} alt='#' />
-            </div>
-            <div className=' grid-two'>
-            <img  src={ProImgSix} alt='#' />
-            </div>
-            <div className=' grid-three'>
-            <img  src={ProImgFour} alt='#' />
-            </div>
-            <div className=' grid-four'>
-            <img  src={ProImgTwo} alt='#' />
-            </div>
-            <div className=' grid-five'>
-            <img  src={ProImgSeven} alt='#' />
-            </div>
-            <div className=' grid-six'>
-            <img  src={ProImgFive} alt='#' />
-            </div>
-            <div className=' grid-seven'>
-            <img  src={ProImgOne} alt='#' />
-            </div>
-            <div className=' grid-eight'>
-            <img  src={ProImgEight} alt='#' />
+      <div className='grid-div'>
 
-            </div>
-            <div className=' grid-nine'>
-            <img  src={ProImgThree} alt='#' />
-            </div>
+        <div className=' grid-five'>
+          <img src={ProImgSeven} width="100%" height="100%" alt='#' />
         </div>
+        <div className=' grid-two'>
+          <img src={ProImgSix} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-three'>
+          <img src={ProImgFour} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-one' >
+          <img src={ProImgEight} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-four'>
+          <img src={ProImgTwo} width="100%" height="100%" alt='#' />
+        </div>
+
+        <div className=' grid-six'>
+          <img src={ProImgFive} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-seven'>
+          <img src={ProImgOne} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-eight'>
+          <img src={ProImgEight} width="100%" height="100%" alt='#' />
+
+        </div>
+        <div className=' grid-nine'>
+          <img src={ProImgThree} alt='#' />
+        </div>
+      </div>
     </section>
   )
 }
