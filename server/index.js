@@ -15,7 +15,7 @@ app.use(cors(
 
 
 app.get("/",(req,res)=>{
-    red.json("hello")
+    res.json("hello")
 
 })
 
