@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors(
     {
-        origin:[""],
+        origin:["https://mernclient-six.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
