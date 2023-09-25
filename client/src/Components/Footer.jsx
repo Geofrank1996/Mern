@@ -1,47 +1,53 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import ProImgOne from '../Components/assets/p1.jpg'
+import ProImgTwo from '../Components/assets/p2.jpg'
+import ProImgThree from '../Components/assets/p3.jpg'
+import ProImgFour from '../Components/assets/p4.jpg'
+import ProImgFive from '../Components/assets/p5.jpg'
+import ProImgSix from '../Components/assets/p6.jpg'
+import ProImgSeven from '../Components/assets/p7.jpg'
+import ProImgEight from '../Components/assets/p8.jpg'
 
-function Footer() {
+
+function GridDiv() {
   return (
-    <section className=' footer-section'>
-        <div className=' footer-section-top'>
-            <div className=' footer-address'>
-                <h2>Furino</h2>
-                <p>400 University Drive Suite 200 Coral</p>
-                <p>Gables</p>
-                <p>FL 33134 USA</p>
-            </div>
-            <div className=' footer-link'>
-                <h4>Links</h4>
-                <ul>
-                    <Link className='link' to="#"><li>Home</li></Link>
-                    <Link className='link' to="#"><li>Shop</li></Link>
-                    <Link className='link' to="#"><li>About</li></Link>
-                    <Link className='link' to="#"><li>Contact</li></Link>
-                </ul>
-            </div>
-            <div className=' footer-help'>
-            <h4>Help</h4>
-            <ul>
-            <Link className='link' to="#"><li>Payment Option</li></Link>
-            <Link className='link' to="#"><li>Return</li></Link>
-            <Link className='link' to="#"><li>Privacy Policies</li></Link>
-                    
-                </ul>
-            </div>
-            <div className=' footer-newsletter'>
-            <h4>Newsletter</h4>
-            <div>
-                <input type='email' className=' footer-email' placeholder='Enter Your Email Address' />
-                <button className=' footer-btn'>SUBSCRIBE</button>
-            </div>
-            </div>
+    <section >
+      <h1>Share your setup with</h1>
+      <h1 className=' grid-div-heading'>#FuniroFuniture</h1>
+      <div className='grid-div'>
+
+        <div className=' grid-five'>
+          <img src={ProImgSeven} width="100%" height="100%" alt='#' />
         </div>
-        <div className=' footer-section-bottom'>
-            <p className=' footer-text'>2023 furino. All rights reverved</p>
+        <div className=' grid-two'>
+          <img src={ProImgSix} width="100%" height="100%" alt='#' />
         </div>
+        <div className=' grid-three'>
+          <img src={ProImgFour} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-one' >
+          <img src={ProImgEight} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-four'>
+          <img src={ProImgTwo} width="100%" height="100%" alt='#' />
+        </div>
+
+        <div className=' grid-six'>
+          <img src={ProImgFive} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-seven'>
+          <img src={ProImgOne} width="100%" height="100%" alt='#' />
+        </div>
+        <div className=' grid-eight'>
+          <img src={ProImgEight} width="100%" height="100%" alt='#' />
+
+        </div>
+        <div className=' grid-nine'>
+          <img src={ProImgThree} alt='#' />
+        </div>
+      </div>
     </section>
   )
 }
 
-export default Footer
+export default GridDiv;
