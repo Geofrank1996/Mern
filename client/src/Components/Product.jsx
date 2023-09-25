@@ -91,7 +91,7 @@ function ProductCard({name,image,desc,price}){
   return(
 <div class="container">
   <div className=' container-img'>
-    <img src={image} width="100%" alt="#" />
+    <img src={image} width="100%" height="100%" alt="#" />
   </div>
   <div className='container-details'>
     <h3>{name||"-"}</h3>
