@@ -17,7 +17,7 @@ function Signup() {
 
         try {
 
-            await axios.post("http://localhost:3001/signup", {
+            await axios.post("https://mernserver.vercel.app/signup", {
                 name,email, password
             })
                 .then(res => {
