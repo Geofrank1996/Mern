@@ -8,7 +8,7 @@ app.use(cors())
 
 
 
-app.get("/",cors(),(req,res)=>{
+app.get("/",(req,res)=>{
     red.json("hello")
 
 })
